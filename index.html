@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Fauna+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Video Scroll Animation</title>
+</head>
+<body>
+    <!-- HTML -->
+    <section class="hero">
+        <div class="title">
+            <h1>Every Bottle</h1>
+            <h1>A Voyage <span class="spacer"></span> Experience</h1>
+            <h1>the Richness of</h1>
+            <h1>Tradition</h1>
+            <video
+                src="./Drink.mp4"
+                class="pin-video"
+                autoplay loop muted>
+            </video>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="text">
+            <h1>Try It</h1>
+            <h1>Out For</h1>
+            <h1>Yourself</h1>
+            <a href="#" class="btn">Explore Offers</a>
+        </div>
+    </section>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <!-- GSAP Scroll Trigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <!-- Lenis -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <!-- Javascript -->
+    <script src="main.js"></script>
+</body>
+</html>
